@@ -14,6 +14,7 @@ Plugin 'vim-scripts/vim-auto-save'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
 
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
@@ -33,7 +34,7 @@ set backspace=indent,eol,start
 let g:ragtag_global_maps = 1
 
 
-set rnu
+set nu rnu
 set numberwidth=5
 set nobackup
 inoremap jk <Esc>
