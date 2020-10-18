@@ -16,6 +16,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 
+
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -27,6 +28,7 @@ set autowrite
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set clipboard=unnamed
 
 let g:indentLine_color_term = 239
 let g:auto_save = 1
