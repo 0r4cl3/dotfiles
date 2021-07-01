@@ -1,5 +1,4 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -15,6 +14,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
+Plugin 'hashivim/vim-terraform'
 
 
 " All of your Plugins must be added before the following line 
@@ -32,6 +32,7 @@ set clipboard=unnamed
 
 let g:indentLine_color_term = 239
 let g:auto_save = 1
+let g:terraform_align=1
 set backspace=indent,eol,start
 let g:ragtag_global_maps = 1
 
@@ -44,7 +45,7 @@ inoremap jk <Esc>
 set background=dark
 "let g:solarized_termcolors=256
 "colorscheme solarized
-"colorscheme gruvbox
+colorscheme gruvbox
 set colorcolumn=+1        " highlight column after 'textwidth'
 set colorcolumn=+1,+2,+3  " highlight three columns after 'textwidth'
 highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
